@@ -1,0 +1,58 @@
+{
+  "project_name": "一笔画城参赛Banner",
+  "category": "poster",
+  "competition": true,
+  "canvas": {
+    "w": 1200,
+    "h": 675
+  },
+  "delivery_spec": "JPG，1200×675，≤5MB；百度地图开发者创作大赛参赛作品Banner",
+  "brief": "参赛作品Banner：宣纸暖色底，金色路线线条写出一个福字穿行城市结构线，主标一笔画城，副标用脚步写一座城，墨色+金色+朱砂点缀，国风书法质感。无AI涉措文字。",
+  "color_strategy": {
+    "mood": "宣纸墨韵，金色足迹，朱砂点睛",
+    "palette": [
+      {
+        "role": "paper",
+        "name": "宣纸",
+        "hex": "#F5EFE3"
+      },
+      {
+        "role": "ink",
+        "name": "墨",
+        "hex": "#1F1B16"
+      },
+      {
+        "role": "gold",
+        "name": "金",
+        "hex": "#C9A227"
+      },
+      {
+        "role": "cinnabar",
+        "name": "朱砂",
+        "hex": "#A83A2A"
+      }
+    ],
+    "value_key": "高明度纸底，金色中灰，墨色焦点，朱砂点缀",
+    "light_model": "顶光纸面漫反射，金线微光泽"
+  },
+  "style_keywords": [
+    "国风",
+    "书法",
+    "宣纸",
+    "金色路线",
+    "城市结构线",
+    "留白"
+  ],
+  "constraints": [
+    "AI零文字：画面不生成任何文字，标题由程序排版",
+    "禁AI涉措：交付物不出现模型名/工艺词",
+    "字体仅用OFL授权（LXGW WenKai/Noto Serif SC）"
+  ],
+  "competition_info": {
+    "赛事": "\"project_name\": \"一笔画城参赛Banner\",",
+    "评审标准": "\"评审标准\": \"创意性30/技术深度30/实用性25/展示完整度15，评委70%+公众30%\",",
+    "截止时间": "\"w\": 1200,",
+    "交付要求": "\"禁AI涉措：交付物不出现模型名/工艺词\","
+  },
+  "raw": "{\n  \"requirement_card\": {\n    \"project_name\": \"一笔画城参赛Banner\",\n    \"category\": \"poster\",\n    \"competition\": true,\n    \"canvas\": {\n      \"w\": 1200,\n      \"h\": 675\n    },\n    \"delivery_spec\": \"JPG，1200×675，≤5MB；百度地图开发者创作大赛参赛作品Banner\",\n    \"brief\": \"参赛作品Banner：宣纸暖色底，金色路线线条写出一个福字穿行城市结构线，主标一笔画城，副标用脚步写一座城，墨色+金色+朱砂点缀，国风书法质感。无AI涉措文字。\",\n    \"color_strategy\": {\n      \"mood\": \"宣纸墨韵，金色足迹，朱砂点睛\",\n      \"palette\": [\n        {\n          \"role\": \"paper\",\n          \"name\": \"宣纸\",\n          \"hex\": \"#F5EFE3\"\n        },\n        {\n          \"role\": \"ink\",\n          \"name\": \"墨\",\n          \"hex\": \"#1F1B16\"\n        },\n        {\n          \"role\": \"gold\",\n          \"name\": \"金\",\n          \"hex\": \"#C9A227\"\n        },\n        {\n          \"role\": \"cinnabar\",\n          \"name\": \"朱砂\",\n          \"hex\": \"#A83A2A\"\n        }\n      ],\n      \"value_key\": \"高明度纸底，金色中灰，墨色焦点，朱砂点缀\",\n      \"light_model\": \"顶光纸面漫反射，金线微光泽\"\n    },\n    \"style_keywords\": [\n      \"国风\",\n      \"书法\",\n      \"宣纸\",\n      \"金色路线\",\n      \"城市结构线\",\n      \"留白\"\n    ],\n    \"constraints\": [\n      \"AI零文字：画面不生成任何文字，标题由程序排版\",\n      \"禁AI涉措：交付物不出现模型名/工艺词\",\n      \"字体仅用OFL授权（LXGW WenKai/Noto Serif SC）\"\n    ],\n    \"competition_info\": {\n      \"赛事\": \"百度地图开发者创作大赛（作品征集与公众投票至2026-09-30）\",\n      \"评审标准\": \"创意性30/技术深度30/实用性25/展示完整度15，评委70%+公众30%\",\n      \"截止时间\": \"2026-09-30\",\n      \"交付要求\": \"Banner 1200×675 JPG/PNG ≤5MB；Demo链接；GitHub(选填)\"\n    }\n  }\n}"
+}

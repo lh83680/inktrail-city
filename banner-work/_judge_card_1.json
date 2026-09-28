@@ -1,0 +1,174 @@
+{
+  "index": 2,
+  "project_name": "一笔画城参赛Banner",
+  "category": "poster",
+  "one_liner": "城是宣纸，路是笔墨",
+  "core_metaphor": "整座城市俯拍即一张铺开的宣纸，路网是纸上的纤维；一条金色路线从画面外走入，写下福字，收笔朱砂——书法与江河、古城同源的城市书写",
+  "form_route": "大幅城市俯视底图占据全幅，纸色统一调色；金线福字偏右置，左侧留白给主标；朱砂点与标题形成对角呼应",
+  "symbol_genes": [
+    "城市俯视全幅",
+    "金色路线福字",
+    "路网纤维",
+    "朱砂点",
+    "大面积留白"
+  ],
+  "color_strategy": {
+    "mood": "城为纸、路为墨、金为神",
+    "value_key": "全幅高明度，金线唯一焦点，朱砂破平衡",
+    "light_model": "城市俯视漫反射光，纸色统一",
+    "palette": [
+      {
+        "role": "paper",
+        "name": "宣纸",
+        "hex": "#F5EFE3",
+        "ratio": 0.65
+      },
+      {
+        "role": "ink",
+        "name": "墨",
+        "hex": "#1F1B16",
+        "ratio": 0.15
+      },
+      {
+        "role": "gold",
+        "name": "金",
+        "hex": "#C9A227",
+        "ratio": 0.15
+      },
+      {
+        "role": "cinnabar",
+        "name": "朱砂",
+        "hex": "#A83A2A",
+        "ratio": 0.05
+      }
+    ],
+    "accessibility": "唯一焦点金线 vs 纸底 ΔL*>45；缩略图下焦点唯一不散",
+    "print": "同概念1",
+    "primary_colors": [
+      "#F5EFE3",
+      "#C9A227",
+      "#1F1B16",
+      "#A83A2A"
+    ],
+    "psychology": "庄重 温暖 匠心 仪式感"
+  },
+  "target_audience": "东方审美 全球视野 Z世代 文化爱好者 城市文旅受众",
+  "heritage_connection": "书法、印章、江河（城市水脉）、古城、春节",
+  "cleverness_depth": {
+    "double_meaning_count": 2
+  },
+  "scalability_16px": {
+    "edge_completeness": 92
+  },
+  "grayscale_version": true,
+  "merchandising_plan": {
+    "product_lines": [
+      "大赛投票列表缩略图",
+      "城市文旅 banner",
+      "明信片",
+      "跑团旗帜",
+      "帆布包",
+      "T恤",
+      "手机壁纸",
+      "公众号头图",
+      "视频封面",
+      "印刷海报",
+      "贴纸",
+      "地铁灯箱"
+    ]
+  },
+  "legal_compliance_check": {
+    "trademark_clearance": true,
+    "advertising_law": true,
+    "cultural_taboos": true
+  },
+  "innovation_dimension": "地图底图作为画面的材质而非窗口",
+  "technological_advances": [
+    "真实 BMapGL 底图调用作为 banner 材质",
+    "程序化排版"
+  ],
+  "risk_reward_ratio": {
+    "calculated_risk": true,
+    "high_potential_return": true
+  },
+  "one_sentence_concept": "整座城市铺开如一张宣纸，金色路线写下福字",
+  "style_template": "国风书法极简",
+  "culture_keywords": [
+    "书法",
+    "印章",
+    "江河",
+    "古城",
+    "春节"
+  ],
+  "visual_transformation": "符号化 抽象化 几何化 极简化",
+  "bw_contrast": {
+    "ratio": 6.8
+  },
+  "color_strategy_extra": null,
+  "instant_recognition": {
+    "first_sight_seconds": 2
+  },
+  "social_media_readiness": {
+    "instagram_shareable": true,
+    "wechat_shareable": true
+  },
+  "cross_media_consistency": {
+    "business_card": true,
+    "billboard": true,
+    "app_icon": true,
+    "social_avatar": true
+  },
+  "production_cost_analysis": {
+    "cost_optimization_done": true,
+    "estimated_unit_cost": 1.2
+  },
+  "scalability_applications": [
+    "app",
+    "web",
+    "packaging",
+    "event",
+    "merchandise",
+    "digital",
+    "print"
+  ],
+  "innovis": null,
+  "technical_specs": [
+    "vector",
+    "print-ready",
+    "web-optimized",
+    "app-compatible"
+  ],
+  "s2_intelligence": {
+    "similar_champions": [
+      {
+        "case": "C:\\Users\\lh836\\.qoder\\skills\\design-master\\references\\cases\\poster\\che-guevara-fitzpatrick.md",
+        "keywords": [
+          "poster"
+        ],
+        "excerpt": "year: 1968 award: \"20世纪最被复制的图像 / 全球革命符号 / 波普艺术经典\" category: poster style: 波普·高对比·双色 source_url: \"https://www.vam.ac.uk/a"
+      },
+      {
+        "case": "C:\\Users\\lh836\\.qoder\\skills\\design-master\\references\\cases\\poster\\fukuda-shigeo-antiwar.md",
+        "keywords": [
+          "poster"
+        ],
+        "excerpt": "uda)\" year: 1975 award: \"日本平面设计协会奖 / 视觉错觉海报大师代表作\" category: poster style: 视觉错觉·极简 source_url: \"https://en.wikipedia.org/"
+      },
+      {
+        "case": "C:\\Users\\lh836\\.qoder\\skills\\design-master\\references\\cases\\poster\\jan-lenica-wozzeck.md",
+        "keywords": [
+          "poster"
+        ],
+        "excerpt": "year: 1964 award: \"波兰海报学派代表 / 华沙海报双年展 / 超现实主义平面\" category: poster style: 超现实·手绘·隐喻 source_url: \"https://www.moma.org/art"
+      }
+    ],
+    "motif_candidates": [
+      "poster"
+    ]
+  },
+  "anti_pattern_check": {
+    "concept": "?",
+    "warnings": [],
+    "risk_level": "clean"
+  }
+}

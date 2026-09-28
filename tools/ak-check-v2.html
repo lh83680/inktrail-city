@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AK Spike v2.0 — 一笔画城</title>
+    <style>html, body, #map { margin: 0; height: 100%; }</style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="log" style="position:fixed;left:8px;top:8px;background:#fff8;padding:6px;font:12px monospace;white-space:pre-wrap"></div>
+    <script>
+      window.__log = (s) => { document.getElementById('log').textContent += '\n' + s }
+      window.__onOldApiReady = () => {
+        try {
+          const map = new BMap.Map('map')
+          map.centerAndZoom(new BMap.Point(116.404, 39.915), 12)
+          window.__map = map
+          __log('v2 map ready; BMap=' + typeof BMap)
+          const walk = new BMap.WalkingRoute(map, {
+            onSearchComplete: (r) => {
+              const p = r.getPlan(0)
+              __log('V2_WALK_OK distance=' + p.getDistance(true))
+            },
+          })
+          walk.search('天安门', '王府井')
+        } catch (e) { __log('V2 INIT ERR ' + e.message) }
+      }
+    </script>
+    <script src="https://api.map.baidu.com/api?v=2.0&ak=__AK__&callback=__onOldApiReady"></script>
+  </body>
+</html>

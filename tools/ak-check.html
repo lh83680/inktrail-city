@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AK Spike — 一笔画城</title>
+    <style>
+      html, body, #map { margin: 0; height: 100%; width: 100%; }
+      #log { position: fixed; left: 8px; top: 8px; z-index: 99; background: #fff8; padding: 6px 10px; font: 12px/1.6 monospace; max-width: 480px; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="log">loading…</div>
+    <script type="module">
+      const log = (s) => { document.getElementById('log').textContent += '\n' + s }
+      const ak = import.meta.env.VITE_BAIDU_AK
+      if (!ak) { log('NO AK in env'); throw new Error('no ak') }
+      window.onBMapGLReady = () => {
+        log('callback fired; BMap=' + typeof window.BMapGL + ' BMapOld=' + typeof window.BMap)
+        log('window BMap keys: ' + Object.keys(window).filter(k => /^BMap/i.test(k)).join(','))
+        try {
+          const gl = window.BMapGL
+          log('BMapGL loaded: ' + !!gl)
+          const map = new gl.Map('map', { enableRotate: true, enableTilt: true })
+          map.centerAndZoom(new gl.Point(116.404, 39.915), 12)
+          window.__map = map
+          log('map ready')
+          // 步行路线
+          const walk = new gl.WalkingRoute(map, {
+            onResultsUpdated: (e) => {
+              const plan = e.getPlan(0)
+              log('WALK_OK distance=' + plan.getDistance(true))
+            },
+          })
+          walk.search('天安门', '王府井')
+          // POI 检索
+          new gl.LocalSearch(map, {
+            onSearchComplete: (rs) => {
+              log('POI_OK first=' + (rs.getPoi(0)?.title ?? 'none') + ' total=' + rs.getCurrentNumPois())
+            },
+          }).searchNearby('咖啡', new gl.Point(116.404, 39.915), 500)
+          // 逆地理编码
+          new gl.Geocoder().getLocation(new gl.Point(116.404, 39.915), (r) => {
+            log('GEOCODE_OK road=' + (r.addressComponents?.street ?? '?') + ' poi=' + (r.surroundPois?.[0]?.title ?? '?'))
+          })
+          // 个性化地图
+          try {
+            map.setMapStyleV2({ styleId: '' })
+            log('setMapStyleV2 accepted (empty style)')
+          } catch (err) { log('setMapStyleV2 ERR ' + err.message) }
+        } catch (err) { log('INIT ERR ' + err.message) }
+      }
+      const s = document.createElement('script')
+      s.src = `https://api.map.baidu.com/api?v=1.0&type=webgl&ak=${ak}&callback=onBMapGLReady`
+      s.onerror = () => log('SCRIPT load error (network/ak blocked)')
+      document.head.appendChild(s)
+    </script>
+  </body>
+</html>

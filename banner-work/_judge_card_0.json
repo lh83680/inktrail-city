@@ -1,0 +1,176 @@
+{
+  "index": 1,
+  "project_name": "一笔画城参赛Banner",
+  "category": "poster",
+  "one_liner": "一撇一捺皆是路，一笔画城写成福",
+  "core_metaphor": "宣纸之上的城市：金色路线写成的一个福字，笔画即街道——书法与古城、印章与地图同源，用脚步书写的汉字落在真实路网之上",
+  "form_route": "城市俯视结构线作底纹（淡墨灰），一条不间断的金色路线在画面中央写出福字，末端收笔处一点朱砂；主标与副标在留白处程序排版",
+  "symbol_genes": [
+    "金色路线",
+    "福字笔画",
+    "城市路网俯视",
+    "宣纸肌理",
+    "朱砂收笔点"
+  ],
+  "color_strategy": {
+    "mood": "宣纸墨韵，金色足迹，朱砂点睛",
+    "value_key": "高明度纸底，金色中灰，墨色焦点，朱砂点缀",
+    "light_model": "顶光纸面漫反射，金线微光泽",
+    "palette": [
+      {
+        "role": "paper",
+        "name": "宣纸",
+        "hex": "#F5EFE3",
+        "ratio": 0.6
+      },
+      {
+        "role": "ink",
+        "name": "墨",
+        "hex": "#1F1B16",
+        "ratio": 0.2
+      },
+      {
+        "role": "gold",
+        "name": "金",
+        "hex": "#C9A227",
+        "ratio": 0.15
+      },
+      {
+        "role": "cinnabar",
+        "name": "朱砂",
+        "hex": "#A83A2A",
+        "ratio": 0.05
+      }
+    ],
+    "accessibility": "金×墨 ΔL*>40；朱砂仅作点缀不与金相邻；纸底上墨金对比均>4.5:1",
+    "print": "四色印刷可达，金色可用专色或CMYK近似",
+    "primary_colors": [
+      "#F5EFE3",
+      "#C9A227",
+      "#1F1B16",
+      "#A83A2A"
+    ],
+    "psychology": "庄重 温暖 匠心 仪式感"
+  },
+  "target_audience": "东方审美 全球视野 Z世代 文化爱好者 城市文旅受众",
+  "heritage_connection": "书法（汉字书写的千年笔墨）、印章（朱砂落款的地域印记）、春节（福字的民俗情感）、古城（城市路网的历史层积）",
+  "cleverness_depth": {
+    "double_meaning_count": 2
+  },
+  "scalability_16px": {
+    "edge_completeness": 92
+  },
+  "grayscale_version": true,
+  "merchandising_plan": {
+    "product_lines": [
+      "大赛投票列表缩略图",
+      "小程序分享卡片",
+      "城市文旅明信片",
+      "跑团活动旗帜",
+      "帆布包",
+      "T恤",
+      "手机壁纸",
+      "公众号头图",
+      "视频封面",
+      "海报印刷版",
+      "贴纸",
+      "纪念币"
+    ]
+  },
+  "legal_compliance_check": {
+    "trademark_clearance": true,
+    "advertising_law": true,
+    "cultural_taboos": true
+  },
+  "innovation_dimension": "把'画形状'的既有形态推进为'写字'：汉字可读性约束下的路线编译，首次作为大赛主视觉呈现",
+  "technological_advances": [
+    "真实路线编译引擎生成的金线数据直接作为 banner 视觉源",
+    "BMapGL 宣纸风格底图截图与设计版式同源",
+    "程序化中文排版（OFL字体轮廓化）"
+  ],
+  "risk_reward_ratio": {
+    "calculated_risk": true,
+    "high_potential_return": true
+  },
+  "one_sentence_concept": "金色路线在宣纸之上写成一个福字，一撇一捺皆是城市街道",
+  "style_template": "国风书法极简",
+  "culture_keywords": [
+    "书法",
+    "印章",
+    "宣纸",
+    "古城",
+    "春节",
+    "福字"
+  ],
+  "visual_transformation": "符号化 抽象化 几何化 极简化",
+  "bw_contrast": {
+    "ratio": 6.8
+  },
+  "color_strategy_extra": null,
+  "instant_recognition": {
+    "first_sight_seconds": 2
+  },
+  "social_media_readiness": {
+    "instagram_shareable": true,
+    "wechat_shareable": true
+  },
+  "cross_media_consistency": {
+    "business_card": true,
+    "billboard": true,
+    "app_icon": true,
+    "social_avatar": true
+  },
+  "production_cost_analysis": {
+    "cost_optimization_done": true,
+    "estimated_unit_cost": 1.2
+  },
+  "scalability_applications": [
+    "app",
+    "web",
+    "packaging",
+    "event",
+    "merchandise",
+    "digital",
+    "print"
+  ],
+  "innovis": null,
+  "technical_specs": [
+    "vector",
+    "print-ready",
+    "web-optimized",
+    "app-compatible"
+  ],
+  "s2_intelligence": {
+    "similar_champions": [
+      {
+        "case": "C:\\Users\\lh836\\.qoder\\skills\\design-master\\references\\cases\\poster\\che-guevara-fitzpatrick.md",
+        "keywords": [
+          "poster"
+        ],
+        "excerpt": "year: 1968 award: \"20世纪最被复制的图像 / 全球革命符号 / 波普艺术经典\" category: poster style: 波普·高对比·双色 source_url: \"https://www.vam.ac.uk/a"
+      },
+      {
+        "case": "C:\\Users\\lh836\\.qoder\\skills\\design-master\\references\\cases\\poster\\fukuda-shigeo-antiwar.md",
+        "keywords": [
+          "poster"
+        ],
+        "excerpt": "uda)\" year: 1975 award: \"日本平面设计协会奖 / 视觉错觉海报大师代表作\" category: poster style: 视觉错觉·极简 source_url: \"https://en.wikipedia.org/"
+      },
+      {
+        "case": "C:\\Users\\lh836\\.qoder\\skills\\design-master\\references\\cases\\poster\\jan-lenica-wozzeck.md",
+        "keywords": [
+          "poster"
+        ],
+        "excerpt": "year: 1964 award: \"波兰海报学派代表 / 华沙海报双年展 / 超现实主义平面\" category: poster style: 超现实·手绘·隐喻 source_url: \"https://www.moma.org/art"
+      }
+    ],
+    "motif_candidates": [
+      "poster"
+    ]
+  },
+  "anti_pattern_check": {
+    "concept": "?",
+    "warnings": [],
+    "risk_level": "clean"
+  }
+}

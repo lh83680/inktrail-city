@@ -1,0 +1,38 @@
+{
+  "project": "一笔画城参赛Banner",
+  "category": "poster",
+  "quality": "competition",
+  "prompt": "一撇一捺皆是路，一笔画城写成福；宣纸之上的城市：金色路线写成的一个福字，笔画即街道——书法与古城、印章与地图同源，用脚步书写的汉字落在真实路网之上；城市俯视结构线作底纹（淡墨灰），一条不间断的金色路线在画面中央写出福字，末端收笔处一点朱砂；主标与副标在留白处程序排版, masterpiece detail, cinematic lighting, intricate details",
+  "elements": [
+    "金色路线",
+    "福字笔画",
+    "城市路网俯视",
+    "宣纸肌理",
+    "朱砂收笔点"
+  ],
+  "canvas": {
+    "width": 1200,
+    "height": 675,
+    "dpi": 300
+  },
+  "delivery": {
+    "psd": true,
+    "svg": true,
+    "texts": [],
+    "layers": []
+  },
+  "output_dir": "C:\\Users\\lh836\\Documents\\Qoder\\2026-09-27\\181b0239\\banner-work\\output",
+  "iterate_strategy": "evolve",
+  "champion_handoff": {
+    "brief_version": "1.1.0",
+    "prompt_meta": {
+      "optimizer": "ok",
+      "model": "nano-banana-pro",
+      "notes": []
+    },
+    "color_clause": null,
+    "best_score": 0.875,
+    "approved_concept_index": 0,
+    "delivery_spec": "JPG，1200×675，≤5MB；百度地图开发者创作大赛参赛作品Banner"
+  }
+}

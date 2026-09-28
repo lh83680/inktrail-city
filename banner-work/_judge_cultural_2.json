@@ -1,0 +1,29 @@
+{
+  "concept_summary": "一滴墨从画面上方落入宣纸，墨迹扩散处亮起金色路网，凝成一个福字——书法与春节、印章同源的\"落墨成字\"瞬间",
+  "target_markets": [
+    "asia-east"
+  ],
+  "validation_results": {
+    "asia-east": {
+      "market_name": "Asia East",
+      "overall_score": 85,
+      "pass_threshold": true,
+      "warnings": [],
+      "recommendations": [
+        {
+          "type": "color_adjustment",
+          "message": "Consider using  for better market resonance"
+        },
+        {
+          "type": "value_alignment",
+          "message": "Emphasize values like  for this market"
+        }
+      ],
+      "sensitive_topics_to_avoid": [],
+      "preferred_symbols": [],
+      "validation_timestamp": "2026-09-28T09:24:42.713913"
+    }
+  },
+  "overall_compatibility_score": 85.0,
+  "generated_at": "2026-09-28T09:24:42.713913"
+}

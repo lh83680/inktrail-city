@@ -1,0 +1,29 @@
+{
+  "concept_summary": "整座城市俯拍即一张铺开的宣纸，路网是纸上的纤维；一条金色路线从画面外走入，写下福字，收笔朱砂——书法与江河、古城同源的城市书写",
+  "target_markets": [
+    "asia-east"
+  ],
+  "validation_results": {
+    "asia-east": {
+      "market_name": "Asia East",
+      "overall_score": 85,
+      "pass_threshold": true,
+      "warnings": [],
+      "recommendations": [
+        {
+          "type": "color_adjustment",
+          "message": "Consider using  for better market resonance"
+        },
+        {
+          "type": "value_alignment",
+          "message": "Emphasize values like  for this market"
+        }
+      ],
+      "sensitive_topics_to_avoid": [],
+      "preferred_symbols": [],
+      "validation_timestamp": "2026-09-28T09:24:42.334938"
+    }
+  },
+  "overall_compatibility_score": 85.0,
+  "generated_at": "2026-09-28T09:24:42.334938"
+}

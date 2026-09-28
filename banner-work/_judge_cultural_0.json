@@ -1,0 +1,29 @@
+{
+  "concept_summary": "宣纸之上的城市：金色路线写成的一个福字，笔画即街道——书法与古城、印章与地图同源，用脚步书写的汉字落在真实路网之上",
+  "target_markets": [
+    "asia-east"
+  ],
+  "validation_results": {
+    "asia-east": {
+      "market_name": "Asia East",
+      "overall_score": 85,
+      "pass_threshold": true,
+      "warnings": [],
+      "recommendations": [
+        {
+          "type": "color_adjustment",
+          "message": "Consider using  for better market resonance"
+        },
+        {
+          "type": "value_alignment",
+          "message": "Emphasize values like  for this market"
+        }
+      ],
+      "sensitive_topics_to_avoid": [],
+      "preferred_symbols": [],
+      "validation_timestamp": "2026-09-28T09:24:41.983396"
+    }
+  },
+  "overall_compatibility_score": 85.0,
+  "generated_at": "2026-09-28T09:24:41.983396"
+}

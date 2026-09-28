@@ -1,0 +1,101 @@
+{
+  "status": "plan_generated",
+  "mode": "general",
+  "mode_description": "通用搜索",
+  "plan": {
+    "plan_version": "5.0",
+    "generated_at": "2026-09-28T09:20:00",
+    "project": "",
+    "mode": "general",
+    "mode_description": "通用搜索",
+    "original_query": "poster 一笔画城参赛Banner \"project_name\": \"一笔画城参赛Banner\", poster",
+    "category": "poster",
+    "keywords": [
+      "poster",
+      "一笔画城参赛Banner",
+      "\"project_name\": \"一笔画城参赛Banner\""
+    ],
+    "language": "zh",
+    "execution_protocol": {
+      "primary_tool": "WebSearch",
+      "supplementary_tool": "WebFetch",
+      "batch_size": 3,
+      "delay_between_batches_sec": 1,
+      "retry_on_failure": true,
+      "max_retries": 1,
+      "depth_fetch_top_n": 5
+    },
+    "queries": [
+      {
+        "query": "poster 一笔画城参赛Banner \"project_name\": \"一笔画城参赛Banner\", poster",
+        "tool": "WebSearch",
+        "site_hint": null,
+        "purpose": "主查询-语义搜索",
+        "priority": 1
+      },
+      {
+        "query": "poster 一笔画城参赛Banner \"project_name\": \"一笔画城参赛Banner\", poster poster 一笔画城参赛Banner",
+        "tool": "WebSearch",
+        "site_hint": null,
+        "purpose": "关键词组合扩展",
+        "priority": 2
+      },
+      {
+        "query": "__DEPTH_FETCH__",
+        "tool": "WebFetch",
+        "site_hint": null,
+        "purpose": "对高价值结果深度抓取全文",
+        "priority": 99,
+        "note": "此指令在获得搜索结果后动态生成具体 URL"
+      }
+    ],
+    "engine_channels": [
+      {
+        "engine": "baidu",
+        "url_template": "https://www.baidu.com/s?wd=poster%20%E4%B8%80%E7%AC%94%E7%94%BB%E5%9F%8E%E5%8F%82%E8%B5%9BBanner%20%22project_name%22%3A%20%22%E4%B8%80%E7%AC%94%E7%94%BB%E5%9F%8E%E5%8F%82%E8%B5%9BBanner%22%2C%20poster",
+        "tool": "WebFetch",
+        "note": "百度-中文索引最全",
+        "purpose": "多引擎通道-baidu"
+      }
+    ],
+    "result_schema": {
+      "type": "array[object]",
+      "required_fields": [
+        "title",
+        "url",
+        "engine"
+      ],
+      "optional_fields": [
+        "snippet",
+        "query",
+        "fetch_date"
+      ],
+      "example": [
+        {
+          "title": "2024 Red Dot Brand Design Winner",
+          "url": "https://www.red-dot.de/...",
+          "engine": "WebSearch",
+          "snippet": "...",
+          "query": "city IP design award"
+        }
+      ]
+    },
+    "output_instructions": {
+      "format": "JSON array",
+      "write_to": "stdout 或 --out 指定文件",
+      "post_processing": "结果交由 result_processor.py 去重排序"
+    }
+  },
+  "ai_execution_instructions": [
+    "使用 WebSearch 工具执行以下 3 条搜索查询，每批 3 条，批间间隔 1 秒：",
+    "  [1] WebSearch: \"poster 一笔画城参赛Banner \"project_name\": \"一笔画城参赛Banner\", poster\" （主查询-语义搜索）",
+    "  [2] WebSearch: \"poster 一笔画城参赛Banner \"project_name\": \"一笔画城参赛Banner\", poster poster 一笔画城参赛Banner\" （关键词组合扩展）",
+    "  [3] （深度抓取）对前 5 条高价值结果使用 WebFetch 抓取全文内容",
+    "另执行以下 1 个多引擎通道直查（WebFetch 打开 URL 模板并解析结果）：",
+    "  [通道] baidu: https://www.baidu.com/s?wd=poster%20%E4%B8%80%E7%AC%94%E7%94%BB%E5%9F%8E%E5%8F%82%E8%B5%9BBanner%20%22project_name%22%3A%20%22%E4%B8%80%E7%AC%94%E7%94%BB%E5%9F%8E%E5%8F%82%E8%B5%9BBanner%22%2C%20poster （百度-中文索引最全）",
+    "通道结果与 WebSearch 结果合并回填，每条 engine 字段填对应通道名。通道被反爬拦截时按 references/anti-blocking.md 四级降级链处理，可改用 scripts/resilient_fetch.py 重试。",
+    "将所有结果汇总为 JSON 数组，每条包含 title/url/engine/snippet 字段。",
+    "若 WebSearch 不可用/配额耗尽（如 402），改用免费降级通道：python scripts/free_search_fallback.py --query <查询> --engine auto --out raw_results.json（国内 Bing/搜狗/360 直连解析，见 references/anti-blocking.md §4.5；海外免费引擎国内不可达，勿尝试）。",
+    "汇总后调用 result_processor.py 进行去重排序，或直接将 JSON 数组传入 search_router.py --process 进行后处理。"
+  ]
+}
