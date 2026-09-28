@@ -28,3 +28,6 @@ test-results/
 playwright-report/
 banner-work/output/
 cdp-*.png
+.git_old_backup/
+.一笔画城.qoder.site
+.qoder.site
