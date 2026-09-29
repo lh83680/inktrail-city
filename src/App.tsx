@@ -7,6 +7,7 @@ import { FilmMode } from './ui/FilmMode'
 import { CityPicker } from './ui/CityPicker'
 import { StreetView } from './ui/StreetView'
 import { FilmVideo } from './ui/FilmVideo'
+import { RepoLink } from './ui/RepoLink'
 import { VoteBar } from './ui/VoteBar'
 
 export default function App() {
@@ -55,6 +56,7 @@ export default function App() {
             </section>
           )}
           <FilmVideo />
+          <RepoLink />
         </aside>
       </main>
     </div>
