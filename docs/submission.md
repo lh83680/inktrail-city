@@ -23,7 +23,7 @@
 | 联系邮箱 | lh83680@163.com |
 | Demo/视频链接 | https://inktrail-city-ntvxzygae05.qoder.website （站内「参赛主视频」面板可在线播放 / 下载） |
 | 作品 Banner 图 | docs/assets/banner.jpg（1200×675，153KB，已过元数据洁净） |
-| GitHub 仓库 | 本地已提交 3 个提交（4cfa633/fc4a977/75455d1），推送时写通道 401，需本人 PAT 后方可回填 |
+| GitHub 仓库 | https://github.com/lh83680/inktrail-city （公开，含主视频管线与投票入口代码） |
 
 ## 作品简介（实数 200 字符，≤200 ✓）
 
@@ -82,7 +82,7 @@
 - [ ] 移动端视口实测
 - [ ] CityPicker/StreetView/海报 E2E
 - [ ] 配额降级路径演练（编译失败→快照）
-- [ ] GitHub 推送（等 PAT）
+- [x] GitHub 推送（已完成，仓库公开）
 
 ## 投票传播（投稿弹窗：投票于审核通过后开始，约 3 个工作日）
 
