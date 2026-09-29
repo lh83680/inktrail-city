@@ -6,6 +6,8 @@ import { StatsPanel } from './ui/StatsPanel'
 import { FilmMode } from './ui/FilmMode'
 import { CityPicker } from './ui/CityPicker'
 import { StreetView } from './ui/StreetView'
+import { FilmVideo } from './ui/FilmVideo'
+import { VoteBar } from './ui/VoteBar'
 
 export default function App() {
   const store = useWorkStore()
@@ -26,6 +28,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <VoteBar />
       <header className="app-head">
         <h1 className="app-title">一笔画城</h1>
         <p className="app-tagline">把你想写的字，写进任何一座城市</p>
@@ -51,6 +54,7 @@ export default function App() {
               </p>
             </section>
           )}
+          <FilmVideo />
         </aside>
       </main>
     </div>

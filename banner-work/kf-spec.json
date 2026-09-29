@@ -1,0 +1,22 @@
+{
+  "size": "1920x1056",
+  "resolution": "1080p",
+  "shots": [
+    {
+      "id": "A",
+      "prompt": "A single drop of black ink falls from above onto warm cream rice-paper textured background and blooms slowly into a wet dark pool, fine ink tendrils spreading organically across the paper fiber, no characters, no text, no letters. Macro top-down camera, static shot with very slow subtle push in. Soft diffused studio light from upper left, faint shadow of brush visible at frame edge. Traditional Chinese ink painting texture, muted warm paper #F5EFE3 with deep ink #1F1B16 bloom, minimal, refined, meditative."
+    },
+    {
+      "id": "B",
+      "prompt": "A wide flat calligraphy brush with dark wet ink glides across the cream rice paper from left to right, leaving a thick luminous golden trail #C9A227 that glows softly along its edges, the stroke begins to curve into the first sweeping arc of a Chinese character. The brush moves with confident controlled speed, ink bleeding slightly into paper fiber. Top-down cinematography, camera tracks the brush tip with smooth lateral motion at constant speed. Warm focused light from upper left, golden line catching light."
+    },
+    {
+      "id": "C",
+      "prompt": "An aerial night view of an ancient Chinese city grid seen from high above, like a traditional walled town with radial roads and blocks. Golden luminous lines #C9A227 light up one by one along the streets, each segment igniting in sequence like a stroke being written, tracing a giant glowing Chinese character shape across the whole city. The camera slowly orbits with large amplitude at slow speed above the city center, revealing the character completing stroke by stroke. Deep indigo night sky, warm amber city lights, golden glow intensifying."
+    },
+    {
+      "id": "D",
+      "prompt": "The aerial camera pulls back and rises, revealing a complete giant glowing golden Chinese character written across the entire ancient city grid with luminous golden lines, a small vermillion red dot #A83A2A glowing at the stroke ending. The city glows warmly below, radial roads and blocks forming the character's strokes. Cinematic wide aerial shot, slow pull back and pedestal up at constant speed. Cool deep blue night air, warm golden city glow, meditative and monumental."
+    }
+  ]
+}

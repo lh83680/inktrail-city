@@ -31,3 +31,6 @@ cdp-*.png
 .git_old_backup/
 .一笔画城.qoder.site
 .qoder.site
+
+public/media
+# 参赛主视频由本地交付目录拷贝入库，正片在 D:/video_output/inktrail-city/delivery/
